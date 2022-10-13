@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-26 13:57:58 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\pos\app\Controllers\TemporalCompra.php(50): App\Controllers\TemporalCompra->cargaProductos('62684077e7274')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\TemporalCompra->inserta('2', '1', '62684077e7274')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 13:58:18 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\pos\app\Controllers\TemporalCompra.php(50): App\Controllers\TemporalCompra->cargaProductos('62684077e7274')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\TemporalCompra->inserta('2', 2, '62684077e7274')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

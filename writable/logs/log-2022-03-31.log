@@ -1,0 +1,231 @@
+CRITICAL - 2022-03-31 06:49:16 --> Undefined variable: validation
+#0 C:\wamp64\www\pos\app\Views\unidades\nuevo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 6, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Unidades.php(41): view('unidades/nuevo', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->nuevo()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:12:52 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:22 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:23 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:23 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:23 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:23 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:30 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:31 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:31 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:31 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:13:40 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:14:38 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:14:52 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:14:55 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:15:05 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(58): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:28:42 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:29:03 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:29:05 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:29:08 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:29:54 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:32:18 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 07:33:11 --> Function name must be a string
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/nuevo', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Unidades.php(75): view('unidades/nuevo', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

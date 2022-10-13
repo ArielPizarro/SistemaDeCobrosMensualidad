@@ -1,0 +1,434 @@
+CRITICAL - 2022-05-09 10:21:23 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 229, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:22:03 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 230, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:22:15 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 230, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:22:16 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 230, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:22:58 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 230, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:24:06 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 231, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:24:06 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 231, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:24:07 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 231, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:24:07 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 231, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:24:08 --> Undefined property: App\Controllers\Productos::$output
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 231, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 10:38:09 --> Invalid file: ventas/codigo.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/codigo.p...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('ventas/codigo', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(215): view('ventas/codigo')
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->muestraCodigos()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 10:38:13 --> Invalid file: ventas/codigo.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/codigo.p...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('ventas/codigo', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(215): view('ventas/codigo')
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->muestraCodigos()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 10:47:29 --> Invalid file: productos/ver _codigos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/ver _...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/ver _...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(215): view('productos/ver _...')
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->muestraCodigos()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 10:55:48 --> FPDF error: Incorrect output destination: pdfCodigos
+#0 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(239): FPDF->Output('pdfCodigos', 'Ticket.pdf', 'I')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 10:56:05 --> FPDF error: Incorrect output destination: /pdfCodigos
+#0 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(239): FPDF->Output('/pdfCodigos', 'Ticket.pdf', 'I')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 10:56:22 --> FPDF error: Incorrect output destination: /pdfCodigos/
+#0 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(239): FPDF->Output('/pdfCodigos/', 'Ticket.pdf', 'I')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 10:56:54 --> FPDF error: Incorrect output destination: ./pdfCodigos/
+#0 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(239): FPDF->Output('./pdfCodigos/', 'Ticket.pdf', 'I')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 10:57:41 --> FPDF error: Incorrect output destination: \pdfCodigos
+#0 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(239): FPDF->Output('\\pdfCodigos', 'Ticket.pdf', 'I')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 11:03:36 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\wamp64\\www\\p...', 464, Array)
+#1 C:\wamp64\www\pos\system\Debug\Toolbar.php(464): file_get_contents('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\wamp64\www\pos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 11:20:04 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\wamp64\\www\\p...', 464, Array)
+#1 C:\wamp64\www\pos\system\Debug\Toolbar.php(464): file_get_contents('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\wamp64\www\pos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 11:31:41 --> fopen(images/logotipo.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('images/logotipo...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('images/logotipo...')
+#3 C:\wamp64\www\pos\app\Controllers\Productos.php(260): FPDF->Image('images/logotipo...', 10, 10, 20)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaMinimosPdf()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 11:32:13 --> fopen(images/logotipo.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('images/logotipo...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('images/logotipo...')
+#3 C:\wamp64\www\pos\app\Controllers\Productos.php(261): FPDF->Image('images/logotipo...', 10, 10, 20)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaMinimosPdf()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 11:36:27 --> Undefined variable: totalTime
+#0 C:\wamp64\www\pos\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 40, Array)
+#1 C:\wamp64\www\pos\system\Debug\Toolbar.php(501): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\pos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\wamp64\www\pos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 11:45:55 --> Call to undefined method App\Models\ProductosModel::getProductosMinimo
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(273): CodeIgniter\Model->__call('getProductosMin...', Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaMinimosPdf()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 11:50:59 --> unlink(images/barcode/1234567898png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/b...', 'C:\\wamp64\\www\\p...', 236, Array)
+#1 C:\wamp64\www\pos\app\Controllers\Productos.php(236): unlink('images/barcode/...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->generaBarras()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 12:27:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 66, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->guarda()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 12:29:26 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 66, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->guarda()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 13:36:17 --> Undefined variable: activo
+#0 C:\wamp64\www\pos\app\Controllers\Roles.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 38, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 13:36:34 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\roles\roles.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 31, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/roles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(42): view('roles/roles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 13:57:19 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 13:58:44 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 13:58:45 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 13:58:46 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:00 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:01 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:06 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:07 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:07 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:07 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:08 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:08 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:08 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:00:08 --> Undefined variable: permisos
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 8, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(129): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:22:55 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\wamp64\www\pos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('roles/detalles/...')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('roles/detalles/...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 14:50:08 --> Undefined offset: 1
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\p...', 14, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(138): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 14:50:28 --> Undefined offset: 1
+#0 C:\wamp64\www\pos\app\Views\roles\detalles.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\p...', 14, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/detalles', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(138): view('roles/detalles', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->detalles('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:03:25 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\roles\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(97): view('roles/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 16:03:47 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\roles\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(97): view('roles/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->editar('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

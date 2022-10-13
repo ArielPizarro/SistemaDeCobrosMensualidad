@@ -1,0 +1,76 @@
+ERROR - 2022-05-04 12:10:03 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-04 12:10:03 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\pos\app\Models\VentasModel.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\pos\app\Controllers\Ventas.php(54): App\Models\VentasModel->insertaVenta('6272b35ec3582', '1200', NULL, NULL, '6', '001')
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->guarda()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-04 12:11:19 --> Invalid file: ventas/ver_compra_pdf.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/ver_comp...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('ventas/ver_comp...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(83): view('ventas/ver_comp...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->muestraTicket('14')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 12:22:05 --> Undefined index: Folio
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 114, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('14')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 12:22:43 --> Undefined index: Folio: 
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 114, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('14')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 12:37:38 --> Trying to get property 'valor' of non-object
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('15')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 12:41:12 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 110, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('index.html')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 12:41:19 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 110, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('index.html')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 12:41:24 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Ventas.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 110, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('index.html')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 13:15:16 --> Invalid file: ventas/venta.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/venta.ph...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('ventas/venta', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(30): view('ventas/venta', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->index()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

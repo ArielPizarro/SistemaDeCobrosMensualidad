@@ -1,0 +1,348 @@
+CRITICAL - 2022-05-13 07:39:38 --> Call to a member function first() on null
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('6')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 07:40:33 --> syntax error, unexpected ''beneficio'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\pos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pagos/nuevo/6')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pagos/nuevo/6')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 08:27:59 --> Undefined variable: debe
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 82, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('7')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 08:30:49 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\pos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pagos/nuevo/4')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pagos/nuevo/4')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 08:30:51 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\pos\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pagos/nuevo/4')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pagos/nuevo/4')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:17:09 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:17:09 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:17:31 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:17:31 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:18:10 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:18:10 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:18:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:18:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:19:13 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:19:13 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:19:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:19:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:19:25 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\clientes\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 15, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('clientes/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Clientes.php(93): view('clientes/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->editar('js', 'bootstrap-datet...')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 13:19:25 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\clientes\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 15, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('clientes/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Clientes.php(93): view('clientes/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->editar('css', 'bootstrap-datet...')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 13:22:05 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:22:05 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:22:16 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:22:16 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:22:58 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:22:58 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:39 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:39 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:59 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:23:59 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:25:09 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:25:09 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:35:24 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:35:24 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:35:39 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:35:39 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:35:42 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:39:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('css', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:39:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 13:41:56 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('js', 'bootstrap-datet...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 15:19:18 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\productos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 9, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(144): view('productos/edita...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('styles', 'style.css')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 15:20:35 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\productos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 9, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(144): view('productos/edita...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('styles', 'style.css')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 15:21:10 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\productos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 9, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(144): view('productos/edita...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('styles', 'style.css')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 15:21:35 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 76, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('styles', 'style.css')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

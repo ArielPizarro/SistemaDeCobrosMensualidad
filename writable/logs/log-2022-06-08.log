@@ -1,0 +1,831 @@
+CRITICAL - 2022-06-08 11:06:31 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'plugins', 'animate.css', 'animate.css')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 11:06:31 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'plugins', 'sweetAlert2', 'sweetalert2.min...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 11:06:31 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'estilos.css')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 12:08:11 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'estilos.css')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 12:08:11 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'plugins', 'sweetAlert2', 'sweetalert2.min...')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 12:08:11 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('sweetAlert2', 'plugins', 'animate.css', 'animate.css')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-08 12:10:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 12:10:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:18:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:18:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-08 13:22:55 --> Call to undefined method App\Models\PagosModel::leftjoin
+#0 C:\wamp64\www\pos\app\Models\PagosModel.php(51): CodeIgniter\Model->__call('leftjoin', Array)
+#1 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 13:24:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:24:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `pagos`.`id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:26:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:26:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_alum...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_alum...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_alum...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_alum...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 13:27:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-08 13:27:57 --> Undefined index: nombres
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 31, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 13:28:59 --> Cannot declare class App\Controllers\Pagos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 13:29:00 --> Cannot declare class App\Controllers\Pagos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 13:29:09 --> Cannot declare class App\Controllers\Pagos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 13:33:45 --> Undefined index: rut
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 53, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 13:35:08 --> Undefined index: rut
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 55, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 13:39:23 --> Unknown column 'u.usuario' in 'field list'
+CRITICAL - 2022-06-08 13:39:23 --> Unknown column 'u.usuario' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-08 13:53:33 --> Call to undefined method App\Models\PagosModel::group
+#0 C:\wamp64\www\pos\app\Models\PagosModel.php(52): CodeIgniter\Model->__call('group', Array)
+#1 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 14:15:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 14:15:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-08 14:15:56 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\p...', 48, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 14:21:25 --> Unknown column 'a.nombres' in 'field list'
+CRITICAL - 2022-06-08 14:21:25 --> Unknown column 'a.nombres' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 14:21:41 --> Unknown column 'a.nombres' in 'field list'
+CRITICAL - 2022-06-08 14:21:41 --> Unknown column 'a.nombres' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 14:31:24 --> Not unique table/alias: 'pagos'
+CRITICAL - 2022-06-08 14:31:24 --> Not unique table/alias: 'pagos'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\app\Models\PagosModel.php(53): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-08 14:32:26 --> Not unique table/alias: 'alumnos'
+CRITICAL - 2022-06-08 14:32:26 --> Not unique table/alias: 'alumnos'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\app\Models\PagosModel.php(53): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-08 14:32:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id` USING (`left`)' at line 3
+CRITICAL - 2022-06-08 14:32:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id` USING (`left`)' at line 3
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\app\Models\PagosModel.php(53): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-08 14:33:08 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\pos\system\View\View.php(210): include()
+#1 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#3 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-08 14:33:32 --> Not unique table/alias: 'alumnos'
+CRITICAL - 2022-06-08 14:33:32 --> Not unique table/alias: 'alumnos'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\app\Models\PagosModel.php(53): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-08 14:38:10 --> Undefined index: id
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 54, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 14:38:34 --> Unknown column 'alumnos.id' in 'field list'
+CRITICAL - 2022-06-08 14:38:34 --> Unknown column 'alumnos.id' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(mont...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(mont...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(mont...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(mont...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-08 14:38:54 --> Undefined index: id
+#0 C:\wamp64\www\pos\app\Views\pagos\resumen.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 54, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/resumen', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(138): view('pagos/resumen', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 14:45:21 --> Table 'pos.my_table' doesn't exist
+CRITICAL - 2022-06-08 14:45:21 --> Table 'pos.my_table' doesn't exist
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('Select * from m...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Select * from m...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from m...')
+#3 C:\wamp64\www\pos\app\Models\PagosModel.php(51): CodeIgniter\Database\BaseConnection->query('Select * from m...')
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 14:45:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:46:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:47:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:48:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:48:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:48:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:48:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 14:49:12 --> Undefined property: App\Controllers\Pagos::$db
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 141, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-08 14:49:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'alumnos' at line 1
+CRITICAL - 2022-06-08 14:49:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'alumnos' at line 1
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('Select * alumno...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Select * alumno...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Select * alumno...')
+#3 C:\wamp64\www\pos\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Select * alumno...')
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(141): CodeIgniter\Model->__call('query', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 14:50:14 --> Call to undefined method App\Controllers\Pagos::query()
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-08 14:50:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'alumnos' at line 1
+CRITICAL - 2022-06-08 14:50:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'alumnos' at line 1
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('Select * alumno...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Select * alumno...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Select * alumno...')
+#3 C:\wamp64\www\pos\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Select * alumno...')
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(141): CodeIgniter\Model->__call('query', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 14:51:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-08 14:51:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-08 14:51:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 15:02:01 --> Unknown column 'a.nombres' in 'field list'
+CRITICAL - 2022-06-08 15:02:01 --> Unknown column 'a.nombres' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`nom...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`nom...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`nom...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`nom...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-08 15:02:34 --> Unknown column 'alumnos' in 'field list'
+CRITICAL - 2022-06-08 15:02:34 --> Unknown column 'alumnos' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `alumnos...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `alumnos...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `alumnos...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `alumnos...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

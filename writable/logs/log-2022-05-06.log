@@ -1,0 +1,262 @@
+CRITICAL - 2022-05-06 08:12:34 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:13:58 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:13:59 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:11 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:26 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:26 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:39 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:39 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 08:14:40 --> Invalid file: vent dos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vent dos.php')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('vent dos', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Ventas.php(41): view('vent dos', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->eliminados()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 10:52:34 --> Undefined variable: totalTime
+#0 C:\wamp64\www\pos\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 40, Array)
+#1 C:\wamp64\www\pos\system\Debug\Toolbar.php(501): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\pos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\wamp64\www\pos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 11:41:47 --> fopen(http://localhost/pos/public/images/logo.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('http://localhos...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('http://localhos...')
+#3 C:\wamp64\www\pos\app\Controllers\Compras.php(113): FPDF->Image('http://localhos...', 185, 10, 25, 20, 'png')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Compras->generaCompraPdf('8')
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 11:42:07 --> fopen(http://localhost/pos/public/images/logo.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('http://localhos...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('http://localhos...')
+#3 C:\wamp64\www\pos\app\Controllers\Compras.php(113): FPDF->Image('http://localhos...', 185, 10, 25, 20, 'png')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Compras->generaCompraPdf('8')
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 11:43:02 --> mime_size is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_size')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tienda_logo', 'tienda_logo', NULL, Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Configuracion.php(84): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Configuracion->actualizar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 11:43:16 --> mime_size is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_size')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tienda_logo', 'tienda_logo', NULL, Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Configuracion.php(84): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Configuracion->actualizar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:20:06 --> mime_size is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_size')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tienda_logo', 'tienda_logo', NULL, Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Configuracion.php(84): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Configuracion->actualizar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:21:05 --> mime_size is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_size')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tienda_logo', 'tienda_logo', NULL, Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Configuracion.php(84): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Configuracion->actualizar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:21:47 --> mime_size is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_size')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('tienda_logo', 'tienda_logo', NULL, Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Configuracion.php(84): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Configuracion->actualizar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:23:06 --> fopen(http://localhost/pos/public/images/logo.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('http://localhos...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('http://localhos...')
+#3 C:\wamp64\www\pos\app\Controllers\Ventas.php(112): FPDF->Image('http://localhos...', 5, 1, 25, 20, 'png')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('17')
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:24:51 --> fopen(http://localhost/pos/public/images/logo.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\p...', 1256, Array)
+#1 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(1256): fopen('http://localhos...', 'rb')
+#2 C:\wamp64\www\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('http://localhos...')
+#3 C:\wamp64\www\pos\app\Controllers\Ventas.php(112): FPDF->Image('http://localhos...', 5, 1, 25, 20, 'png')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Ventas->generaTicket('17')
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-06 12:56:22 --> Undefined variable: totalTime
+#0 C:\wamp64\www\pos\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 40, Array)
+#1 C:\wamp64\www\pos\system\Debug\Toolbar.php(501): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\pos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\wamp64\www\pos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-06 15:00:16 --> Undefined variable: totalVentas
+#0 C:\wamp64\www\pos\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(22): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 15:01:05 --> Undefined variable: totalVentas
+#0 C:\wamp64\www\pos\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(22): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 15:05:27 --> Array to string conversion
+#0 C:\wamp64\www\pos\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(26): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 15:06:45 --> Undefined index: total
+#0 C:\wamp64\www\pos\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(26): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 15:07:12 --> Undefined index: total
+#0 C:\wamp64\www\pos\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(26): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-06 15:17:23 --> Unknown column 'activos' in 'where clause'
+CRITICAL - 2022-05-06 15:17:23 --> Unknown column 'activos' in 'where clause'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\wamp64\www\pos\app\Models\ProductosModel.php(43): CodeIgniter\Model->countAllResults()
+#6 C:\wamp64\www\pos\app\Controllers\inicio.php(21): App\Models\ProductosModel->productosMinimo()
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
