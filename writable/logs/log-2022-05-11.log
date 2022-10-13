@@ -1,0 +1,49 @@
+ERROR - 2022-05-11 14:34:58 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-11 14:34:58 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-11 14:37:24 --> Undefined variable: producto
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 122, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:49:07 --> Undefined variable: alumnos
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 122, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 16:00:35 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

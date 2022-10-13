@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-21 14:19:44 --> Invalid file: productos/productos.php
+#0 C:\wamp64\www\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/produ...')
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/produ...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(22): view('productos/produ...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

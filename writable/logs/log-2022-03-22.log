@@ -1,0 +1,137 @@
+CRITICAL - 2022-03-22 11:24:25 --> Undefined property: App\Controllers\Productos::$categorias
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 44, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->nuevo()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-22 12:15:56 --> Column 'nombre' cannot be null
+CRITICAL - 2022-03-22 12:15:56 --> Column 'nombre' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Productos.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->insertar()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-22 12:18:22 --> Undefined index: combre
+#0 C:\wamp64\www\pos\app\Views\productos\productos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 33, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/produ...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(27): view('productos/produ...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 12:20:10 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\productos\editar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 20, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(80): view('productos/edita...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 12:24:39 --> Undefined variable: datos
+#0 C:\wamp64\www\pos\app\Views\productos\editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 9, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 12:42:26 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:48:10 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:48:11 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:56:56 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:56:58 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:56:59 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:57:19 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:57:21 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 12:57:22 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\wamp64\www\pos\app\Controllers\Productos.php(84): view('productos/edita...', Array)
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

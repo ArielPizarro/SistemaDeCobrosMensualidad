@@ -1,0 +1,100 @@
+CRITICAL - 2022-05-20 12:00:43 --> Undefined index: nombres
+#0 C:\wamp64\www\pos\app\Views\pagos\editar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(144): view('pagos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->editar('441')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-20 12:19:59 --> Unknown column 'total' in 'field list'
+CRITICAL - 2022-05-20 12:19:59 --> Unknown column 'total' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(tota...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(tota...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(tota...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(tota...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(55): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\pos\app\Controllers\inicio.php(28): App\Models\PagosModel->totalMes('22-05-20')
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-20 12:21:25 --> Array to string conversion
+#0 C:\wamp64\www\pos\app\Views\inicio.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\p...', 77, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(33): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 12:21:57 --> Array to string conversion
+#0 C:\wamp64\www\pos\app\Views\inicio.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\p...', 77, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(33): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 12:27:45 --> Undefined index: montoDia
+#0 C:\wamp64\www\pos\app\Views\inicio.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 77, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\inicio.php(34): view('inicio', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 13:30:44 --> A non well formed numeric value encountered
+#0 C:\wamp64\www\pos\app\Controllers\inicio.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\wamp64\\www\\p...', 29, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-20 13:39:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE(fecha_alta) <= '22-05-20'
+ LIMIT 1' at line 3
+CRITICAL - 2022-05-20 13:39:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATE(fecha_alta) <= '22-05-20'
+ LIMIT 1' at line 3
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(mont...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(mont...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(mont...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(mont...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(58): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\pos\app\Controllers\inicio.php(28): App\Models\PagosModel->totalMes('22-05-20')
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-20 13:40:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '22-05-20'
+ LIMIT 1' at line 3
+CRITICAL - 2022-05-20 13:40:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '22-05-20'
+ LIMIT 1' at line 3
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(mont...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(mont...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(mont...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(mont...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(58): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\pos\app\Controllers\inicio.php(28): App\Models\PagosModel->totalMes('22-05-20')
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

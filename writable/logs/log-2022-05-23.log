@@ -1,0 +1,41 @@
+ERROR - 2022-05-23 15:18:50 --> Unknown column 'u.usuario' in 'field list'
+CRITICAL - 2022-05-23 15:18:50 --> Unknown column 'u.usuario' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(53): App\Models\PagosModel->obtener(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->index()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-23 15:19:02 --> Unknown column 'u.usuario' in 'field list'
+CRITICAL - 2022-05-23 15:19:02 --> Unknown column 'u.usuario' in 'field list'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(53): App\Models\PagosModel->obtener(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->index()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-23 16:05:02 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('5')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,59 @@
+CRITICAL - 2022-05-19 08:38:56 --> Undefined index: nombres
+#0 C:\wamp64\www\pos\app\Views\pagos\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 21, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('pagos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Pagos.php(144): view('pagos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->editar('28')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-19 08:42:57 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-19 08:42:57 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Pagos.php(124): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->insertar()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-19 08:43:10 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-19 08:43:10 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-19 14:20:07 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-19 14:20:07 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Pagos.php(123): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->insertar()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

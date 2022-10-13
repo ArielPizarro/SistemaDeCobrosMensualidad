@@ -1,0 +1,47 @@
+CRITICAL - 2022-06-03 10:03:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('20748489')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:04:40 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('20748489')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:30:10 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('21140409')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 11:42:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+CRITICAL - 2022-06-03 11:42:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 1
+GROUP BY `id_alumno`
+ORDER BY `pagos`.`id_alumno` DESC' at line 4
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pagos`....', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pagos`....')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pagos`....')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pagos`....', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\pos\app\Models\PagosModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\pos\app\Controllers\Pagos.php(134): App\Models\PagosModel->obtenerTotalPagado(1)
+#8 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->resumen()
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-03 11:59:02 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Controllers\Pagos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 93, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Pagos->nuevo('text', 'javascript')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

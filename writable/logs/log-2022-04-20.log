@@ -1,0 +1,22 @@
+CRITICAL - 2022-04-20 13:29:58 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(187): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 13:30:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\usuarios\cambia_password.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 21, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/cambia...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(267): view('usuarios/cambia...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->cambia_password()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

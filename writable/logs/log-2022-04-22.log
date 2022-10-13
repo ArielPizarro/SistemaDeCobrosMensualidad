@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-22 12:59:53 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\usuarios\cambia_password.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 21, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/cambia...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(267): view('usuarios/cambia...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->cambia_password()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

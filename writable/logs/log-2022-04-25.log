@@ -1,0 +1,12 @@
+CRITICAL - 2022-04-25 09:55:41 --> Class 'App\Models\TemporalComprasModel' not found
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(809): App\Controllers\TemporalCompra->__construct()
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 09:55:47 --> Class 'App\Models\TemporalComprasModel' not found
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(809): App\Controllers\TemporalCompra->__construct()
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

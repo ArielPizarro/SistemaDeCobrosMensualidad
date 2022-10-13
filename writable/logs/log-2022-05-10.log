@@ -1,0 +1,250 @@
+CRITICAL - 2022-05-10 07:55:07 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:55:29 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:56:17 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:57:27 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\roles\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('roles/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Roles.php(97): view('roles/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Roles->editar('2')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Roles))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:58:31 --> Call to undefined method App\Models\DetalleRolesPermisosModel::verificarPermisos
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(49): CodeIgniter\Model->__call('verificarPermis...', Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 07:59:07 --> Call to undefined method App\Models\DetalleRolesPermisosModel::verificarPermisos
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(49): CodeIgniter\Model->__call('verificarPermis...', Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 07:59:07 --> Call to undefined method App\Models\DetalleRolesPermisosModel::verificarPermisos
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(49): CodeIgniter\Model->__call('verificarPermis...', Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 07:59:08 --> Call to undefined method App\Models\DetalleRolesPermisosModel::verificarPermisos
+#0 C:\wamp64\www\pos\app\Controllers\Productos.php(49): CodeIgniter\Model->__call('verificarPermis...', Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-10 08:53:00 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-10 08:53:00 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-10 08:53:07 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-10 08:53:07 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-10 08:53:08 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-10 08:53:08 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-10 08:53:09 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-10 08:53:09 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-10 08:53:16 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-05-10 08:53:16 --> Column 'id_usuario' cannot be null
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Usuarios.php(276): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->logout()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-10 11:34:24 --> required] is not a valid rule.
+#0 C:\wamp64\www\pos\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required]')
+#1 C:\wamp64\www\pos\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombres', 'nombres', 'Felipe Andres', Array, Array)
+#2 C:\wamp64\www\pos\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\wamp64\www\pos\app\Controllers\Alumnos.php(76): CodeIgniter\Controller->validate(Array)
+#4 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->insertar()
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-10 11:46:08 --> Undefined variable: cliente
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 15, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('5')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 11:52:45 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('3')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 12:02:45 --> Undefined index: apeliido_paterno
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 12:03:05 --> Undefined index: apeliido_paterno
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 12:03:17 --> Undefined index: apeliido_paterno
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 12:03:18 --> Undefined index: apeliido_paterno
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 12:04:01 --> Undefined index: apeliido_paterno
+#0 C:\wamp64\www\pos\app\Views\alumnos\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Alumnos.php(104): view('alumnos/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Alumnos->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 15:11:29 --> Undefined index: nombre_corto
+#0 C:\wamp64\www\pos\app\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 26, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Usuarios.php(189): view('usuarios/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Usuarios->editar('1')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

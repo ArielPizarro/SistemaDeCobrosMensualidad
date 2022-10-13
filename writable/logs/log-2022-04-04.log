@@ -1,0 +1,81 @@
+CRITICAL - 2022-04-04 08:11:28 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pos\app\Views\unidades\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 15, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('unidades/editar', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Unidades.php(93): view('unidades/editar', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Unidades->editar('10')
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-04 08:17:03 --> Duplicate entry '1234567898' for key 'codigo'
+CRITICAL - 2022-04-04 08:17:03 --> Duplicate entry '1234567898' for key 'codigo'
+#0 C:\wamp64\www\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\pos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\pos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\pos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\pos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\pos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\pos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\pos\app\Controllers\Productos.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->insertar()
+#10 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-04 12:45:10 --> Undefined index: codigo
+#0 C:\wamp64\www\pos\app\Views\clientes\clientes.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 32, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Clientes.php(49): view('clientes/client...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-04 12:46:09 --> Undefined index: codigo
+#0 C:\wamp64\www\pos\app\Views\clientes\clientes.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 32, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Clientes.php(47): view('clientes/client...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-04 12:46:38 --> Undefined index: precio_venta
+#0 C:\wamp64\www\pos\app\Views\clientes\clientes.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\p...', 34, Array)
+#1 C:\wamp64\www\pos\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pos\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#4 C:\wamp64\www\pos\app\Controllers\Clientes.php(47): view('clientes/client...', Array)
+#5 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->index()
+#6 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-04 12:54:40 --> Undefined property: App\Controllers\Clientes::$unidades
+#0 C:\wamp64\www\pos\app\Controllers\Clientes.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 63, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->nuevo()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 13:00:18 --> Undefined property: App\Controllers\Clientes::$unidades
+#0 C:\wamp64\www\pos\app\Controllers\Clientes.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 63, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->nuevo()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 14:17:47 --> Undefined property: App\Controllers\Clientes::$unidades
+#0 C:\wamp64\www\pos\app\Controllers\Clientes.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 86, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Clientes->editar('3')
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

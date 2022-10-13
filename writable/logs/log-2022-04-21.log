@@ -1,0 +1,121 @@
+CRITICAL - 2022-04-21 12:20:16 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('65165165')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:32:39 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:38 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:39 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:39 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:40 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:40 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:40 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:40 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('123456782')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:43 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('12345678')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:44 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('12345678')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:35:44 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('12345678')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:36:18 --> Undefined property: App\Controllers\Compras::$unidades
+#0 C:\wamp64\www\pos\app\Controllers\Compras.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 23, Array)
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Compras->index()
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 12:36:56 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('dgt')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:44:50 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('gtyit')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:45:05 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('uyo')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:45:28 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('65165165168')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:49:33 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('dsfgdr')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:49:37 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('687')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 12:53:02 --> Cannot use [] for reading
+#0 C:\wamp64\www\pos\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo('46456546')
+#1 C:\wamp64\www\pos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\wamp64\www\pos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
